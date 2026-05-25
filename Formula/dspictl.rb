@@ -10,6 +10,7 @@ class Dspictl < Formula
 
   def install
     bin.install "dspictl"
+    generate_completions_from_executable(bin/"dspictl", "completion")
   end
 
   test do
