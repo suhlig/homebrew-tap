@@ -8,5 +8,6 @@ class Rustomato < Formula
 
   def install
     bin.install "rustomato"
+    generate_completions_from_executable(bin/"rustomato", "completions")
   end
 end
