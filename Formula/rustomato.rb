@@ -1,10 +1,10 @@
 class Rustomato < Formula
   desc "A simple Pomodoro timer for the command line"
   homepage "https://github.com/suhlig/rustomato"
-  url "https://github.com/suhlig/rustomato/releases/download/v1.0.0/rustomato-darwin-arm64.tar.gz"
-  sha256 "dcecadf63da590d37e3e538172f6c3be25edcb51da7c9750ce9cf72ce3ab7d8a"
+  url "https://github.com/suhlig/rustomato/releases/download/v1.1.0/rustomato-darwin-arm64.tar.gz"
+  sha256 "797a6c149c6087f5d1a10186ffa0d73d0e96f2f21c71d8ca1d9cd7326e39a571"
   license "MIT"
-  version "1.0.0"
+  version "1.1.0"
 
   def install
     bin.install "rustomato"
