@@ -9,5 +9,6 @@ class Rustomato < Formula
   def install
     bin.install "rustomato"
     generate_completions_from_executable(bin/"rustomato", "completions")
+    (man1/"rustomato.1").write Utils.popen_read(bin/"rustomato", "man")
   end
 end
