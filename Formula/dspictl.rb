@@ -1,9 +1,9 @@
 class Dspictl < Formula
   desc "Control DSPi audio devices from the command-line"
   homepage "https://github.com/suhlig/dspi"
-  url "https://github.com/suhlig/dspictl/releases/download/v1.6.1/dspictl-darwin-arm64.tar.gz"
-  version "1.6.1"
-  sha256 "6743755efc2c40122b2e0b150cf74006d4ea110f3db879f4c65fc4fe62c095bc"
+  url "https://github.com/suhlig/dspictl/releases/download/v1.6.2/dspictl-darwin-arm64.tar.gz"
+  version "1.6.2"
+  sha256 "ff76f50875024270be781ddd9228155ba41bb96e908bcc12e03ee2f6703148d4"
   license "MIT"
 
   depends_on "libusb"
