@@ -11,6 +11,9 @@ class Dspictl < Formula
   def install
     bin.install "dspictl"
     generate_completions_from_executable(bin/"dspictl", "completion")
+
+    system bin/"dspictl", "man", "man"
+    man1.install Dir["man/*.1"]
   end
 
   test do
